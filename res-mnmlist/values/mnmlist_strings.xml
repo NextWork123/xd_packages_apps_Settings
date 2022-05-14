@@ -160,4 +160,8 @@
     <string name="qs_auto_brightness_title">Auto brightness icon</string>
     <string name="qs_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
 
+    <!-- General -->
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="longpress_to_clipboard">Long-press to copy</string>
+
 </resources>
