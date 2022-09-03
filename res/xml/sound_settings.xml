@@ -89,8 +89,9 @@
         android:order="-140"
         settings:controller="com.android.settings.notification.NotificationVolumePreferenceController"/>
 
+
     <!-- Link ringtone and notification volumes -->
-    <com.evolution.settings.preference.SecureSettingSwitchPreference
+     <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
         android:key="volume_link_notification"
         android:title="@string/volume_link_notification_title"
         android:defaultValue="true"
