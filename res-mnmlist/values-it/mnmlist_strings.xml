@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+     Copyright (C) 2022 xdroid & xyzprjkt
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Dashboard -->
+    <string name="mnmlist_title">mnmlist</string>
+    <string name="mnmlist_dashboard_title">Che cosa è xdroid?</string>
+    <string name="xd_tap_about">A proposito di xdroid</string>
+    <string name="xd_tap_about_summary">Toccare qui per saperne di più su xdroid</string>
+    <string name="gestures_title">Gesti</string>
+    <string name="gestures_summary">DT2W • DT2S • DT2P</string>
+    <string name="misc_title">Varie</string>
+    <string name="misc_summary">Riavvio avanzato • Tocco posteriore</string>
+    <string name="interfaces_title">Interfaccia di sistema</string>
+    <string name="interfaces_summary">Monet • Ora • Icone</string>
+    <string name="interfaces_style_title">Stile di sistema</string>
+    <string name="interfaces_statusbar_title">Barra di stato</string>
+    <string name="interfaces_battery_title">Batteria</string>
+    <string name="buttons_title">Bottoni</string>
+    <string name="buttons_summary">Volume wake • Controllo della riproduzione</string>
+    <string name="quicksettings_title">Impostazioni rapide</string>
+    <string name="quicksettings_summary">Slider della luminosità • Luminosità automatica</string>
+    <string name="lockscreen_title">Schermata di blocco</string>
+    <string name="lockscreen_summary">Always on display • Copertina multimediale • Informazioni sulla carica</string>
+
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Doppio tocco sulla barra di stato per sospendere</string>
+    <string name="double_tap_sleep_gesture_summary">Doppio tocco su un punto qualsiasi della barra di stato per sospendere</string>
+
+    <!-- Double Tap to Sleep Lockscreen -->
+    <string name="double_tap_sleep_lockscreen_title">Doppio tocco per sospendere</string>
+    <string name="double_tap_sleep_lockscreen_summary">Doppio tocco su un punto qualsiasi della schermata di blocco per sospendere</string>
+
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Attiva riavvio avanzato</string>
+    <string name="global_actions_advanced_reboot_summary">Mostra le opzioni per la recovery e bootloader nel power menu</string>
+    
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Frequenza di aggiornamento</string>
+    <string name="min_refresh_rate_title">Frequenza di aggiornamento minima</string>
+    <string name="max_refresh_rate_title">Frequenza di aggiornamento massima</string>
+    <string name="preferred_refresh_rate_title">Frequenza di aggiornamento preferita</string>
+    <string name="preferred_refresh_rate_info">La frequenza di aggiornamento preferita verrà utilizzata come frequenza di aggiornamento predefinita per le interazioni dell'utente, a condizione che sia entro la frequenza di aggiornamento minima e massima.</string>
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Scorri per fare uno screenshot</string>
+    <string name="swipe_to_screenshot_summary">Scorri 3 dita lungo lo schermo per fare uno screenshot</string>
+
+    <!-- Game Space -->
+    <string name="game_space_title">Spazio di gioco</string>
+    <string name="game_space_summary">Migliora la tua esperienza di gioco</string>
+
+    <!-- Unlock FPS for specific games -->
+    <string name="use_games_spoof_title">Sblocca FPS alti nei giochi</string>
+    <string name="use_games_spoof_summary">Falsifica il dispositivo come un modello diverso per giochi specifici per sbloccare FPS più alti</string>
+    
+    <!-- Unlimited google photos storage -->
+    <string name="use_photos_spoof_title">Archiviazione illimitata di foto</string>
+    <string name="use_photos_spoof_summary">Falsifica il tuo dispositivo come Pixel XL per l'app Google Foto solo per fornire spazio di archiviazione illimitato per il backup</string>
+
+    <!-- QS Tile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Impostazioni rapide richiedono lo sblocco</string>
+    <string name="qstile_requires_unlocking_summary">Le seguenti impostazioni rapidi richiedono lo sblocco prima di poterle accedere dalla schermata di blocco: Modalità aereo, Cellular, Bluetooth, Risparmio dati, Risparmio energetico, Modalità lavoro, Rotazione automatica, NFC, Hotspot, tethering USB e Posizione</string>
+    
+    <!-- Disable QS -->
+    <string name="disable_qs_title">Nascondi le impostazioni rapide nella schermata di blocco</string>
+    <string name="disable_qs_summary">Nasconde le impostazioni rapide se il dispositivo è bloccato. Non disabilita l'ombra di notifica</string>
+
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Disabilita il menù di spegnimento nella schermata di blocco</string>
+    <string name="lockscreen_power_menu_disabled_summary">Questo disabiliterà solo il menu di spegnimento sulla schermata di blocco</string>
+    
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Altri controlli</string>
+    <string name="fullscreen_gestures_title">Gesti a schermo intero</string>
+    <string name="fullscreen_gestures_summary">Nascondi la pillola e lo spazio della tastiera</string>
+
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Lunghezza della pillola</string>
+    <string name="short_label">Corta</string>
+    <string name="long_label">Lunga</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Disposizione casuale</string>
+    <string name="unlock_scramble_pin_layout_summary">Disposizione casuale dei numeri durante lo sblocco del dispositivo</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Suono schermata</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="statusbar_ntraffic">Rete</string>
+    <string name="network_traffic_state_title">Velocità della rete</string>
+    <string name="network_traffic_state_summary">Mostra la velocità della rete nella barra di stato</string>
+    <string name="network_traffic_location_title">Posizione</string>
+    <string name="network_traffic_statusbar">Barra di stato</string>
+    <string name="network_traffic_qs_header">Intestazione delle impostazioni rapide</string>
+    <string name="network_traffic_mode_title">Modalità display</string>
+    <string name="network_traffic_dynamic">Dinamico</string>
+    <string name="network_traffic_download">Scarica</string>
+    <string name="network_traffic_upload">Carica</string>
+    <string name="network_traffic_autohide_threshold_title">Soglia di nascondimento automatico</string>
+    <string name="network_traffic_refresh_interval_title">Intervallo di aggiornamento</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Elementi della barra di stato</string>
+    <string name="statusbar_items_summary">Attiva/Disattiva gli elementi della barra di stato</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Icona 4G</string>
+    <string name="show_fourg_icon_summary">Visualizza l\'icona 4G nell\'icona del segnale anziché LTE</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Mostra icona dati disabilitati</string>
+    <string name="data_disabled_icon_summary">Visualizza il segno esclamativo accanto alla barra del segnale quando i dati sono disabilitati</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Indicatore di roaming</string>
+    <string name="roaming_indicator_icon_summary">Visualizza l'indicatore di roaming nell'icona del segnale in modalità roaming</string>
+
+    <!-- Lockscreen media art -->
+    <string name="lockscreen_media_art_category_title">Copertina multimediale</string>
+    <string name="keygaurd_media_art_title">Mostra la copertina multimediale</string>
+    <string name="keygaurd_media_art_summary">Mostra la copertina multimediale come sfondo della schermata di blocco</string>
+    <string name="lockscreen_media_blur_title">Livello sfocatura della copertina multimediale</string>
+    
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Controllo della riproduzione</string>
+    <string name="volume_button_music_control_summary">Quando lo schermo è spento, premendo a lungo i tasti del volume si saltano i brani musicali</string>
+
+    <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">Vibrazione gesto indietro</string>
+    <string name="back_gesture_haptic_summary">Vibra quando esegui il gesto indietro</string>
+
+</resources>
