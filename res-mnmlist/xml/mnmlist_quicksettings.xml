@@ -32,7 +32,7 @@
             android:entryValues="@array/qs_brightness_slider_position_values"
             android:defaultValue="0" />
 
-        <com.xd.mnmlist.preferences.SecureSettingSwitchPreferencez
+        <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
             android:key="qs_show_auto_brightness"
             android:title="@string/qs_auto_brightness_title"
             android:summary="@string/qs_auto_brightness_summary"
