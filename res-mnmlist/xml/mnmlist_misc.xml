@@ -37,4 +37,10 @@
           android:summary="@string/global_actions_advanced_reboot_summary"
           android:defaultValue="true" />
 
+     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+            android:key="wake_when_plugged_or_unplugged"
+            android:title="@string/wake_on_plug_title"
+            android:summary="@string/wake_on_plug_summary"
+            android:defaultValue="true" />
+
 </PreferenceScreen>
