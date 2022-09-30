@@ -172,4 +172,8 @@
     <string name="wake_on_plug_title">Wake on plug</string>
     <string name="wake_on_plug_summary">Turn the screen on when connecting or disconnecting a power source</string>
 
+    <!-- Hide status bar on lock screen -->
+    <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
+    <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
+
 </resources>
