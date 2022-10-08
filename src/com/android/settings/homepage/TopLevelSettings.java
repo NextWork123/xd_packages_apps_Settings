@@ -191,7 +191,6 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                     /* scrollNeeded= */ false);
         }
         super.onStart();
-        initMnmlistAdditions();
         initMyAccountCard();
     }
 

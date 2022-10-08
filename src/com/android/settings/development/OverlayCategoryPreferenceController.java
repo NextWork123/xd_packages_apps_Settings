@@ -266,4 +266,13 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         Log.w(TAG, "getOverlays list=" + filteredInfos.toString());
         return filteredInfos;
     }
+
+    private String getPackageLabel(String packageName) {
+        try {
+            return mPackageManager.getApplicationInfo(packageName, 0)
+                                  .loadLabel(mPackageManager).toString();
+        } catch (PackageManager.NameNotFoundException e) {
+            return mDeviceDefaultLabel;
+        }
+    }
 }
