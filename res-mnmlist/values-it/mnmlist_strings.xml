@@ -19,19 +19,20 @@
 
     <!-- Dashboard -->
     <string name="mnmlist_title">mnmlist</string>
-    <string name="mnmlist_dashboard_title">Che cosa è xdroid?</string>
-    <string name="xd_tap_about">A proposito di xdroid</string>
-    <string name="xd_tap_about_summary">Toccare qui per saperne di più su xdroid</string>
+    <string name="mnmlist_summary">Esplora le nostre features qui!</string>
+    <string name="mnmlist_dashboard_title">Che cos\'è xdroid?</string>
+    <string name="xd_tap_about">A proposito di Xdroid</string>
+    <string name="xd_tap_about_summary">Tocca qui per saperne di più su xdroid</string>
     <string name="gestures_title">Gesti</string>
     <string name="gestures_summary">DT2W • DT2S • DT2P</string>
     <string name="misc_title">Varie</string>
     <string name="misc_summary">Riavvio avanzato • Tocco posteriore</string>
     <string name="interfaces_title">Interfaccia di sistema</string>
-    <string name="interfaces_summary">Monet • Ora • Icone</string>
+    <string name="interfaces_summary">Monet • Orologio • Icone</string>
     <string name="interfaces_style_title">Stile di sistema</string>
     <string name="interfaces_statusbar_title">Barra di stato</string>
     <string name="interfaces_battery_title">Batteria</string>
-    <string name="buttons_title">Bottoni</string>
+    <string name="buttons_title">Pulsanti</string>
     <string name="buttons_summary">Volume wake • Controllo della riproduzione</string>
     <string name="quicksettings_title">Impostazioni rapide</string>
     <string name="quicksettings_summary">Slider della luminosità • Luminosità automatica</string>
@@ -58,11 +59,11 @@
     <string name="preferred_refresh_rate_info">La frequenza di aggiornamento preferita verrà utilizzata come frequenza di aggiornamento predefinita per le interazioni dell\'utente, a condizione che sia entro la frequenza di aggiornamento minima e massima.</string>
 
     <!-- Swipe to screenshot -->
-    <string name="swipe_to_screenshot_title">Scorri per fare uno screenshot</string>
-    <string name="swipe_to_screenshot_summary">Scorri 3 dita lungo lo schermo per fare uno screenshot</string>
+    <string name="swipe_to_screenshot_title">Scorri per catturare una schermata</string>
+    <string name="swipe_to_screenshot_summary">Scorri 3 dita lungo lo schermo per catturare una schermata</string>
 
     <!-- Game Space -->
-    <string name="game_space_title">Spazio di gioco</string>
+    <string name="game_space_title">Spazio gioco</string>
     <string name="game_space_summary">Migliora la tua esperienza di gioco</string>
 
     <!-- Unlock FPS for specific games -->
@@ -70,7 +71,7 @@
     <string name="use_games_spoof_summary">Falsifica il dispositivo come un modello diverso per giochi specifici per sbloccare FPS più alti</string>
     
     <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Archiviazione illimitata di foto</string>
+    <string name="use_photos_spoof_title">Archiviazione illimitata per Google Foto</string>
     <string name="use_photos_spoof_summary">Falsifica il tuo dispositivo come Pixel XL per l\'app Google Foto solo per fornire spazio di archiviazione illimitato per il backup</string>
 
     <!-- QS Tile requires unlocking before being accessible -->
@@ -124,13 +125,17 @@
     <string name="show_fourg_icon_title">Icona 4G</string>
     <string name="show_fourg_icon_summary">Visualizza l\'icona 4G nell\'icona del segnale anziché LTE</string>
 
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Icona dati piccola</string>
+    <string name="use_old_mobiletype_summary">Mostra l\'icona dei dati mobili sulla parte superiore dell\'indicatore del segnale</string>
+
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Mostra icona dati disabilitati</string>
-    <string name="data_disabled_icon_summary">Visualizza il segno esclamativo accanto alla barra del segnale quando i dati sono disabilitati</string>
+    <string name="data_disabled_icon_title">Mostra icona dati mobili disabilitati</string>
+    <string name="data_disabled_icon_summary">Visualizza il segno esclamativo accanto alla barra del segnale quando i dati mobili sono disabilitati</string>
 
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Indicatore di roaming</string>
-    <string name="roaming_indicator_icon_summary">Visualizza l\'indicatore di roaming nell\'icona del segnale in modalità roaming</string>
+    <string name="roaming_indicator_icon_title">Indicatore roaming</string>
+    <string name="roaming_indicator_icon_summary">Visualizza l\'indicatore del roaming nell\'icona del segnale in modalità roaming</string>
 
     <!-- Lockscreen media art -->
     <string name="lockscreen_media_art_category_title">Copertina multimediale</string>
@@ -146,4 +151,91 @@
     <string name="back_gesture_haptic_title">Vibrazione gesto indietro</string>
     <string name="back_gesture_haptic_summary">Vibra quando esegui il gesto indietro</string>
 
+    <!-- QS brightness slider -->
+    <string name="qs_brightness_slider_title">Slider della luminosità</string>
+    <string name="qs_brightness_slider_never">Non mostrare</string>
+    <string name="qs_brightness_slider_expanded">Mostra quando espanso</string>
+    <string name="qs_brightness_slider_always">Mostra sempre</string>
+    <string name="qs_brightness_slider_position_title">Posizione</string>
+    <string name="qs_brightness_slider_position_top">Sopra</string>
+    <string name="qs_brightness_slider_position_bottom">Sotto</string>
+
+    <!-- QS auto brightness icon -->
+    <string name="qs_auto_brightness_title">Pulsante luminosità automatica</string>
+    <string name="qs_auto_brightness_summary">Mostra il puilsante della luminosità automatica vicino allo slider</string>
+
+    <!-- General -->
+    <string name="copied_to_clipboard">Copiato negli appunti</string>
+    <string name="longpress_to_clipboard">Premere a lungo per copiare</string>
+
+     <!-- Pocket judge -->
+    <string name="pocket_judge_title">Rilevamento tasca</string>
+    <string name="pocket_judge_summary">Blocca schermo e pulsanti quando il dispositivo è in tasca</string>
+
+    <!-- Wake on plug -->
+    <string name="wake_on_plug_title">Risveglia al collegamento</string>
+    <string name="wake_on_plug_summary">Accendere lo schermo quando si collega o si scollega una fonte di alimentazione</string>
+
+    <!-- Hide status bar on lock screen -->
+    <string name="hide_lockscreen_status_bar_title">Nascondi barra di stato</string>
+    <string name="hide_lockscreen_status_bar_summary">Toccare la barra di stato per visualizzarla</string>
+
+    <!-- Back gesture arrow -->
+    <string name="back_gesture_arrow_message">Animazione gesto indietro</string>
+    <string name="back_gesture_arrow_summary">Mostra l\'animazione di una freccia quando viene eseguito il gesto indietro</string>
+
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Luminosità automatica in un solo colpo</string>
+    <string name="auto_brightness_one_shot_summary">La regolazione della luminosità avverrà solo nel momento in cui lo schermo è acceso</string>
+
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Consenti ai client di utilizzare le VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client dell\'hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività a monte</string>
+
+    <!-- Invert navbar -->
+    <string name="navigation_bar_inverse_title">Inverti la barra di navigazione a 3 pulsanti</string>
+
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notifiche fastidiose</string>
+    <string name="notification_sound_vib_screen_on_summary">Riproduci suono e vibrazione per le notifiche quando lo schermo è acceso</string>
+
+    <!-- Statusbar Battery -->
+    <string name="battery_style_title">Stile icona batteria</string>
+    <string name="battery_style_summary">Personalizza l\'icona della batteria, Mostra o nascondi la percentuale</string>
+    <string name="battery_style_category_title">Icona della batteria</string>
+    <string name="status_bar_battery_category_title">Nella barra di stato</string>
+    <string name="status_bar_battery_percent_title">Percentuale della batteria</string>
+    <string name="status_bar_battery_style_title">Stile della batteria</string>
+    <string name="status_bar_battery_style_icon_portrait">Icona predefinita</string>
+    <string name="status_bar_battery_style_circle">Cerchio</string>
+    <string name="status_bar_battery_style_dotted_circle">Circle (Punteggiato)</string>
+    <string name="status_bar_battery_style_filled_circle">Circle (Pieno)</string>
+    <string name="status_bar_battery_style_text">Testo</string>
+    <string name="status_bar_battery_style_hidden">Nascosto</string>
+    <string name="status_bar_battery_percentage_default">Nascosto (predefinito)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro l\'icona</string>
+    <string name="status_bar_battery_percent_text_next_right">Vicino all\'icona (destra)</string>
+    <string name="status_bar_battery_percent_text_next_left">Vicino all\'icona (sinistra)</string>
+    <string name="status_bar_battery_text_charging_title">Percentuale della batteria in carica</string>
+    <string name="status_bar_battery_text_charging_summary">Mostra sempre la percentuale quando il dispositivo è in carica</string>
+
+    <!-- QS battery -->
+    <string name="qs_battery_category_title">Nelle impostazioni rapide</string>
+    <string name="qs_battery_percent_title" translatable="false">@string/status_bar_battery_percent_title</string>
+    <string name="qs_use_status_bar_battery_style">Segui lo stile della barra di stato</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Torcia veloce</string>
+    <string name="power_button_torch_summary">Quando lo schermo è spento, la pressione prolungata del pulsante di accensione abiliterà la torcia</string>
+    <!-- Wp zoom -->
+    <string name="use_wp_zoom_title">Zoom dello sfondo</string>
+    <string name="use_wp_zoom_summary">Attiva/disattiva il comportamento dello zoom dello sfondo</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignora i flag di sicurezza della finestra</string>
+    <string name="ignore_window_secure_summary">Questo rimuove i limiti delle schermate e delle registrazioni schermo per tutte le applicazioni. Normalmente, le applicazioni speciali vengono sostituite con aree nere nelle registrazioni. Questo può essere utile in alcuni casi, ma può portare a perdite di privacy. Dopo aver modificato questa opzione, potrebbe essere necessario riavviare le applicazioni affinché la modifica abbia effetto.</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Effetto ondulazione</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Mostra effetto ondulazione quando sblocchi con impronte digitali</string>
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Animazione di ricarica</string>
+    <string name="charging_animation_summary">Mostra un\'animazione quando il dispositivo viene collegato</string>
 </resources>
