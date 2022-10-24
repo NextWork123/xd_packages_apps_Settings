@@ -276,4 +276,7 @@
     <string name="qs_date_title">Date</string>
     <string name="qs_date_summary">Display date in quick status bar header</string>
     <string name="volume_panel_on_left_title">Show volume panel on left</string>
+     <string name="extras_title">Extras</string>
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
 </resources>
