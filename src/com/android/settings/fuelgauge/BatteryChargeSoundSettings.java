@@ -35,7 +35,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.evolution.settings.preference.CustomSeekBarPreference;
+import com.xd.mnmlist.preferences.CustomSeekBarPreference;
 
 public class BatteryChargeSoundSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -158,7 +158,7 @@ public class BatteryChargeSoundSettings extends SettingsPreferenceFragment imple
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EVO_SETTINGS;
+        return MetricsProto.MetricsEvent.XD_SETTINGS;
     }
 
 }
